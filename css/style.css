@@ -8,10 +8,14 @@
                         font-family: Arial, Helvetica
                     }
                     
+                    .main {
+                        width: 100%;
+                    }
+                    
                     .navbar {
                         display: flex;
                         flex-direction: column;
-                        justify-content: space-between;
+                        s justify-content: space-between;
                         align-items: center;
                         text-align: center;
                         background: #0e2957;
