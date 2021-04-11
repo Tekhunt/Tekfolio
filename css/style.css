@@ -171,18 +171,13 @@ h2 ai {
     margin-top: 40px;
 }
 
-.hire {
-    text-decoration: line-through;
-    text-decoration-color: blue;
-    -moz-text-decoration-color: blu;
-    text-decoration-thickness: 4px;
-}
-
-.services h3:hover {
-    text-decoration: line-through;
-    text-decoration-color: blue;
-    -moz-text-decoration-color: blu;
-    text-decoration-thickness: 4px;
+@media (max-width: 950px) {
+    .services {
+        width: 100%;
+    }
+    .hire {
+        width: 50%;
+    }
 }
 
 
@@ -250,16 +245,13 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 25px 70px 25px 70px;
+    padding: 25px 15px 25px 15px;
 }
 @media (max-width: 600px) {
-    .footer-div ul {
-        margin: 0 auto;
-        flex-direction: column;
-    }
+    .footer-div ul {}
 }
 .color {
     background-color: #cccccc;
@@ -325,26 +317,6 @@ footer {
 .read {
     width: 50%;
     margin: auto;
-}
-.colab1 {
-    background-image: url(../images/ms-scholarship.jfif);
-    background-size: 100% 100%;
-}
-.colab2 {
-    background-image: url(../images/eda1.jfif);
-    background-size: 100% 100%;
-}
-.colab3 {
-    background-image: url(../images/dl.jfif);
-    background-size: 100% 100%;
-}
-.colab4 {
-    background-image: url(../images/sa1.png);
-    background-size: 100% 100%;
-}
-.colab5 {
-    background-image: url(../images/rs1.png);
-    background-size: 100% 100%;
 }
 .hot:hover {
     font-weight: 800;
