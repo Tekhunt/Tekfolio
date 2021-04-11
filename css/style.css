@@ -188,6 +188,16 @@ h2 ai {
 
 /*footer8*/
 
+.tf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+    margin: auto;
+    margin-bottom: 1.5px;
+    padding-bottom: 15px;
+}
+
 .footer-div ul li {
     font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
     font-weight: 400;
@@ -207,6 +217,20 @@ h2 ai {
 }
 
 
+}
+.trule {
+    margin-bottom: 20px;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 1px;
+    background-color: rgb(29, 8, 70);
+    border: none;
+}
+.bgc {
+    width: 100%;
+    background-color: #0e2957;
+    margin-bottom: 0px;
 }
 footer {
     flex-wrap: wrap;
@@ -301,6 +325,26 @@ footer {
 .read {
     width: 50%;
     margin: auto;
+}
+.colab1 {
+    background-image: url(../images/ms-scholarship.jfif);
+    background-size: 100% 100%;
+}
+.colab2 {
+    background-image: url(../images/eda1.jfif);
+    background-size: 100% 100%;
+}
+.colab3 {
+    background-image: url(../images/dl.jfif);
+    background-size: 100% 100%;
+}
+.colab4 {
+    background-image: url(../images/sa1.png);
+    background-size: 100% 100%;
+}
+.colab5 {
+    background-image: url(../images/rs1.png);
+    background-size: 100% 100%;
 }
 .hot:hover {
     font-weight: 800;
