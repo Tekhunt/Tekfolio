@@ -12,6 +12,113 @@
         width: 100%;
         overflow: hidden;
     }
+    /* Header Design*/
+    
+    header {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFTI_mhQnu3Nr_KdF0TIsGbHOFRY8p4MVYGw&usqp=CAU");
+        background-repeat: repeat-x;
+        width: 100%;
+        height: 15vh;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    @media (max-width: 900px) {
+        header {
+            height: 35vh;
+        }
+    }
+    
+    .fa {
+        color: antiquewhite;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        font-size: 1.8rem;
+    }
+    
+    .logo img {
+        width: 30px;
+        height: 30px;
+        border: 2px solid white;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    .logo p {
+        margin-left: 10px;
+        font-family: inherit;
+    }
+    
+    nav {
+        display: flex;
+    }
+    
+    nav .fa {
+        display: none;
+    }
+    
+    nav a {
+        margin: 10px;
+        font-size: 1, 2rem;
+        text-decoration: none;
+        color: white;
+        transition: all .2s;
+        -webkit-transition: all .2s;
+        -moz-transition: all .2s;
+        -ms-transition: all .2s;
+        -o-transition: all .2s;
+    }
+    
+    nav a:hover {
+        color: rgb(165, 165, 165);
+    }
+    
+    @media (max-width: 900px) {
+        nav .fa {
+            display: block;
+            cursor: pointer;
+        }
+        nav .menu {
+            width: 180px;
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 95px;
+            right: 50px;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        nav .menu.active {
+            display: flex
+        }
+    }
+    
+    @media (max-width: 570px) {
+        nav .menu {
+            width: 440px;
+            flex-direction: row;
+            right: 0px;
+        }
+    }
+    
+    @media (max-width: 570px) {
+        nav .menu {
+            width: 350px;
+            flex-direction: row;
+            right: 0px;
+        }
+        nav.menu a {
+            font-size: 0.9rm;
+        }
+    }
+    /*End of header dsign*/
     
     .navbar {
         display: flex;
@@ -85,12 +192,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center
-    }
-    
-    @media (max-width: 400px) {
-        .socials ul {
-            display: block;
-        }
     }
     
     .text {
